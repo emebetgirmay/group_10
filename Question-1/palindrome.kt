@@ -1,6 +1,6 @@
 fun main() {
-    println(isPalindrome("hannah")) // true
-    println(isPalindrome("process")) // false
+    println(isPalindrome("hannah")) 
+    println(isPalindrome("process")) 
 }
 
 
