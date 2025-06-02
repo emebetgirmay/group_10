@@ -1,6 +1,7 @@
 Input: A word,phrase or sequence
 Output:  A condition showing if a word,phrase or sequence can be read the same both forward and backwards
 
+
 Steps:
 
 1. Create a an input for a word,phrase or sequence 
@@ -10,4 +11,6 @@ Steps:
 5. Reverse the clean phrase
 6. If the cleaned phrase is equal with the reversed phrase then the phrase is a palindrome and can be read both backwards and forward.
 7. Else if the phrase is not equal with the reversed phrase then the phrase isn't a palindrome and can't be read both backwards and forward.
-   
+
+
+
