@@ -1,0 +1,27 @@
+Create a system to manage books and reservations.
+Set up a collection for storing book details.
+Set up a collection for keeping track of event reservations.
+To add a new book store the book’s identifier and name.
+Mark the book as ready for borrowing.
+Note that no one has borrowed it yet.
+To let a person borrow a book:
+If the book is not in the system, say it is missing.
+If the book is already borrowed:
+If it is a digital type, say it is not available.
+Otherwise, say it is already borrowed and add the person to a waiting list.
+If the book can be borrowed:
+Mark it as not ready for borrowing.
+Remember who borrowed it.
+Say that the book has been borrowed and mention the borrower and book type.
+To let a person return a book:
+If the book is not in the system, say it is missing.
+Mark the book as ready for borrowing.
+Remove the name of the person who borrowed it.
+Say that the book has been returned.
+To let a person save a spot for an event:
+If the event does not have a list yet, create one.
+If the person already saved a spot, say so.
+Add the person to the list for the event.
+Say that the person has a spot saved for the event.
+To check if a book can be borrowed:
+Find out if the book is marked as ready for borrowing.
