@@ -1,13 +1,12 @@
+Input: A word,phrase or sequence
+Output:  A condition showing if a word,phrase or sequence can be read the same both forward and backwards
 
-Input  -  String
-Process  -   Create a function that takes the input string as a parameter
-             Convert the input to lowercase
-             Remove all spaces and special characters
+Steps:
 
-             Initialize a variable that holds the clean string
-             Reverse the clean string
-             compare the clean string with the reversed clean string
-             
-             If they are equal the string can be read the same ways forward and backwards
-             If they are not equal the string can't be read the same ways forward and backwards
-Output   -  Boolean
+1. Create a an input for a word,phrase or sequence 
+2. Convert the input to lower case
+3. Remove all the spaces and specical characters within that phrase
+4. Create an empty list that hold the cleaned phrase
+5. Reverse the clean phrase
+6. If the cleaned phrase is equal with the reversed phrase then the phrase is a palindrome and can be read both backwards and forward.
+7. Else if the phrase is not equal with the reversed phrase then the phrase isn't a palindrome and can't be read both backwards and forward.
