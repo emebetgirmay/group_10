@@ -1,9 +1,14 @@
-Input  - a phrase or a word to check if it can be read same in both backward and forward ways
-1. Create a an input for a phrase
+
+Input: A word,phrase or sequence
+Output:  A condition showing if a word,phrase or sequence can be read the same both forward and backwards
+
+Steps:
+
+1. Create a an input for a word,phrase or sequence 
 2. Convert the input to lower case
 3. Remove all the spaces and specical characters within that phrase
+4. Create an empty list that hold the cleaned phrase
 5. Reverse the clean phrase
-6. If the cleaned phrase is equal with the reversed phrase we say the phrase if a palindrome and can be read both backwards and forward.
-7. Else we say the phrase is not a palindrome and can't be read both backwards and forward at the same time
-Output  - 'true' if the word/phrase can be read same in backward and forward ways and
-        'false' it it can't be read the same
+6. If the cleaned phrase is equal with the reversed phrase then the phrase is a palindrome and can be read both backwards and forward.
+7. Else if the phrase is not equal with the reversed phrase then the phrase isn't a palindrome and can't be read both backwards and forward.
+
